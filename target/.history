@@ -1,0 +1,7 @@
+test
+exit
+test
+testOnly co.com.scalatraining.syntax.SyntaxSuite
+testOnly co.com.scalatraining.collections.ListSuite
+testOnly co.com.scalatraining.tuples.TupleSuite
+testOnly co.com.scalatraining.collections.ListSuite

@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0m[32mListSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una List se debe poder construir[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se puede hacer una lista de un solo tipo[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder recorrer imperativamente[0m[0m
+[0m[[0minfo[0m] [0m[32m- A una lista se le debe poder adicionar elementos[0m[0m
+[0m[[0minfo[0m] [0m[32m- A una lista se le debe poder eliminar elementos con drop[0m[0m
+[0m[[0minfo[0m] [0m[32m- A una lista se le pueden descartar elementos en una direccion determinada (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder consultar el primer elemento de una lista de forma insegura[0m[0m
+[0m[[0minfo[0m] [0m[32m- Que pasa si hacemos head a una List()[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder obtener todos los elementos de una lista sin el primer elemento[0m[0m
+[0m[[0minfo[0m] [0m[32m- Que pasa si hacemos tail a un List()[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder filtrar con una hof[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder acumular[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder acumular en una direccion determinada (izquierda)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder acumular en una direccion determinada (derecha)[0m[0m
+[0m[[0minfo[0m] [0m[32m- fold sobre una List de objetos[0m[0m
+[0m[[0minfo[0m] [0m[32m- test - obtenga el promedio de los numeros pares[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder dividir[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder reversar[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder serializar[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder acceder al primer elemento de List() de forma segura[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una List se debe poder transformar[0m[0m
+[0m[[0minfo[0m] [0m[32m- Verificacion de map sobre una List[0m[0m

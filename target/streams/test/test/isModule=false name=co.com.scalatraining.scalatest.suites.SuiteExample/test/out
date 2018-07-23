@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mSuiteExample:[0m[0m
+[0m[[0minfo[0m] [0m[31m- An empty Set should have size 0 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Set() had size 0 instead of expected size 1 (SuiteExample.scala:8)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Invoking head on an empty Set should produce NoSuchElementException[0m[0m

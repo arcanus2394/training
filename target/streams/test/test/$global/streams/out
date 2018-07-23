@@ -1,0 +1,44 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.tuples.TupleSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.collections.MapSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.collections.ListSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.specs.HelloSpec, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.effects.OptionSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.modeling.ModelingSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.specs.SetFreeSpec, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.specs.SetPropSpec, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.effects.TrySuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.suites.SuiteExample, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.currying.CurryingSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.effects.FutureSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.specs.TVSetSpec, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.specs.SetFunSpec, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.scalatest.specs.SetWordSpec, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.collections.SetSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.syntax.SyntaxSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.effects.EitherSuite, org.scalatest.tools.Framework$$anon$1@3d7dd453, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 9 seconds, 126 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 139[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 18, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 138, failed 1, canceled 0, ignored 1, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.effects.TrySuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.modeling.ModelingSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.scalatest.specs.SetPropSpec[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.scalatest.specs.SetFreeSpec[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.scalatest.specs.HelloSpec[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.collections.ListSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.collections.SetSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.effects.OptionSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.currying.CurryingSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.effects.EitherSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.collections.MapSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.syntax.SyntaxSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.scalatest.specs.SetFunSpec[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.scalatest.specs.TVSetSpec[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.effects.FutureSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.tuples.TupleSuite[0m
+[0m[[0mdebug[0m] [0m	co.com.scalatraining.scalatest.specs.SetWordSpec[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	co.com.scalatraining.scalatest.suites.SuiteExample[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

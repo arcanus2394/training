@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0m[32mTrySuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tratando el Try como un bloque try-catch[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder hacer pattern match sobre un Try que es Failure[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder hacer pattern match sobre un Try que es Success[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Failure se debe poder map[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Success se debe poder map [assert con for-comp][0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Success se debe poder map [assert con flatmap][0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Failure se debe poder recuperar con recover[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Failure se debe poder recuperar con recoverWith[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Try se debe poder convertior en Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Failure se debe poder convertior en Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try for-com. A chain of Success is a Success[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try for-com. A chain of Tries with a Failure is a Failure[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try monad verification. Is Try associative?[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try monad verification. Does Try comply right unit?[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try monad verification. Does Try comply left unit (1)?[0m[0m
+[0m[[0minfo[0m] [0m[33m- Try monad verification. Does Try comply left unit (2)? !!! IGNORED !!![0m[0m
+[0m[[0minfo[0m] [0m[32m- Composicion de Try con errores aleatorios[0m[0m

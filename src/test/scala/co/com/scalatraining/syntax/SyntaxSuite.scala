@@ -162,6 +162,19 @@ class SyntaxSuite extends FunSuite{
     assert(res == 2)
   }
 
+  test("Un trait puede tener tambien implementaciones2"){
+    trait MyTrait {
+      def f1(a:Int) = a + 1
+    }
+
+    object MyClass extends MyTrait{
+      override def f1(a:Int) = a + 2
+    }
+
+    val res = MyClass.f1(1)
+    assert(res == 3)
+  }
+
 
   test("Pattern matching"){
     case class Profesor(nombre:String)

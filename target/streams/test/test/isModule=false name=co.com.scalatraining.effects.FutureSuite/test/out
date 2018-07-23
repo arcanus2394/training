@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mFutureSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un futuro se puede crear[0m[0m
+[0m[[0minfo[0m] [0m[32m- map en Future[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder encadenar Future con for-comp[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder manejar el error de un Future de forma imperativa[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder manejar el exito de un Future de forma imperativa[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder manejar el error de un Future de forma funcional sincronicamente[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder manejar el error de un Future de forma funcional asincronamente[0m[0m
+[0m[[0minfo[0m] [0m[32m- Los future **iniciados** fuera de un for-comp deben iniciar al mismo tiempo[0m[0m
+[0m[[0minfo[0m] [0m[32m- Los future **definidos** fuera de un for-comp deben iniciar secuencialmente[0m[0m
+[0m[[0minfo[0m] [0m[32m- Los future declarados dentro de un for-comp deben iniciar secuencialmente[0m[0m
+[0m[[0minfo[0m] [0m[32m- Future.sequence[0m[0m
+[0m[[0minfo[0m] [0m[32m- Future.traverse[0m[0m

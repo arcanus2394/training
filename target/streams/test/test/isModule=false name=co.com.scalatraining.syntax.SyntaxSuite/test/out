@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mSyntaxSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un var debe permitir realizar asignaciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un val no debe permitir realizar asignaciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Los tipos en Scala son iferidos por el compilador[0m[0m
+[0m[[0minfo[0m] [0m[32m- Scala no debe permitir iniciar en null[0m[0m
+[0m[[0minfo[0m] [0m[32m- Scala no debe permitir declarar sin asignar[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un object puede tener funciones miembro[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un class se puede comoportar como un class tradicional[0m[0m
+[0m[[0minfo[0m] [0m[32m- A un class se le puede  mutar su estado[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un case es una clase normal para usos especificos[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un trait puede tener solo definiciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un trait puede tener tambien implementaciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching[0m[0m
+[0m[[0minfo[0m] [0m[32m- verificacion de unapply[0m[0m

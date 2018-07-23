@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mOptionSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder crear un Option con valor[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder crear un Option para denotar que no hay valor[0m[0m
+[0m[[0minfo[0m] [0m[32m- Es inseguro acceder al valor de un Option con get[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder hacer pattern match sobre un Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- Fold en Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder saber si un Option tiene valor con isDefined[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder acceder al valor de un Option de forma segura con getOrElse[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Option se debe poder transformar con un map[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Option se debe poder transformar con flatMap en otro Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Option se debe poder filtrar con una hof con filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- for comprehensions en Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- for comprehesions None en Option[0m[0m
+[0m[[0minfo[0m] [0m[32m- for comprehesions None en Option 2[0m[0m

@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mMapSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Creacion vacia[0m[0m
+[0m[[0minfo[0m] [0m[32m- foreach en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un Map se debe poder operar en un for-comp[0m[0m
+[0m[[0minfo[0m] [0m[32m- crear nuevo Map con un item mas[0m[0m
+[0m[[0minfo[0m] [0m[32m- head en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- head en un Map vacio[0m[0m
+[0m[[0minfo[0m] [0m[32m- head en un Map (verificacion con tupla)[0m[0m
+[0m[[0minfo[0m] [0m[32m- tail en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- split en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- drop en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- dropRight en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter en un Map[0m[0m
+[0m[[0minfo[0m] [0m[32m- Transformacion de un Map con map[0m[0m
+[0m[[0minfo[0m] [0m[32m- mapValues en un Map[0m[0m
