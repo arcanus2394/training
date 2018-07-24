@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="s4n-ThinkPad-E470" name="co.com.scalatraining.collections.ListSuite" tests="28" errors="0" failures="0" time="0.018">
+<testsuite hostname="s4n-ThinkPad-E470" name="co.com.scalatraining.collections.ListSuite" tests="29" errors="0" failures="1" time="0.028">
                      <properties>
       <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/><property name="java.vm.version" value="25.171-b11"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/s4n/Documents/scala-1-training"/><property name="java.runtime.version" value="1.8.0_171-8u171-b11-0ubuntu0.17.10.1-b11"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
 "/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="4.13.0-21-generic"/><property name="user.home" value="/home/s4n"/><property name="user.timezone" value="America/Bogota"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="user.name" value="s4n"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_171"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
@@ -12,15 +12,15 @@
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="A una lista se le debe poder adicionar elementos" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="se puede concatenar" time="0.0">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="se puede concatenar" time="0.001">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="adicionar 1 y 5" time="0.0">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="A una lista se le debe poder eliminar elementos con drop" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="A una lista se le pueden descartar elementos en una direccion determinada (right)" time="0.001">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="A una lista se le pueden descartar elementos en una direccion determinada (right)" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="DropWhile" time="0.0">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="DropWhile" time="0.001">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Se debe poder consultar el primer elemento de una lista de forma insegura" time="0.0">
                                                  
@@ -28,7 +28,7 @@
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Se debe poder obtener todos los elementos de una lista sin el primer elemento" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Que pasa si hacemos tail a un List()" time="0.0">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Que pasa si hacemos tail a un List()" time="0.001">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder filtrar con una hof" time="0.001">
                                                  
@@ -38,19 +38,19 @@
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder acumular en una direccion determinada (izquierda)" time="0.001">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder acumular en una direccion determinada (derecha)" time="0.0">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder acumular en una direccion determinada (derecha)" time="0.001">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="fold sobre una List de objetos" time="0.001">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="test - obtenga el promedio de los numeros pares" time="0.001">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="test - obtenga el promedio de los numeros pares" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder dividir" time="0.001">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder dividir" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder reversar" time="0.001">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder reversar" time="0.0">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Una lista se debe poder serializar" time="0.0">
                                                  
-                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Se debe poder acceder al primer elemento de List() de forma segura" time="0.0">
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Se debe poder acceder al primer elemento de List() de forma segura" time="0.001">
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="Se debe poder acceder al primer elemento de List() no vacia de forma segura" time="0.0">
                                                  
@@ -60,6 +60,75 @@
                                                  
                                                </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="map strings" time="0.001">
                                                  
+                                               </testcase><testcase classname="co.com.scalatraining.collections.ListSuite" name="flatMap try" time="0.009">
+                                                 <failure message="List(List(1), List(1)) did not equal List(1, 2)" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: List(List(1), List(1)) did not equal List(1, 2)
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:528)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:527)
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1560)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:501)
+	at co.com.scalatraining.collections.ListSuite.$anonfun$new$48(ListSuite.scala:263)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.invokeWithFixture$1(FunSuiteLike.scala:184)
+	at org.scalatest.FunSuiteLike.$anonfun$runTest$1(FunSuiteLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FunSuiteLike.runTest(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuiteLike.runTest$(FunSuiteLike.scala:178)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.$anonfun$runTests$1(FunSuiteLike.scala:229)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+	at scala.collection.immutable.List.foreach(List.scala:378)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FunSuiteLike.runTests(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuiteLike.runTests$(FunSuiteLike.scala:228)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+	at org.scalatest.Suite.run(Suite.scala:1147)
+	at org.scalatest.Suite.run$(Suite.scala:1129)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.$anonfun$run$1(FunSuiteLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FunSuiteLike.run(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuiteLike.run$(FunSuiteLike.scala:232)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:499)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
                                                </testcase>
                      <system-out></system-out>
                      <system-err></system-err>

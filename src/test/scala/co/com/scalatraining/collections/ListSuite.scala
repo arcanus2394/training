@@ -253,4 +253,14 @@ class ListSuite extends FunSuite {
     assert(l2==List(4,3,4))
   }
 
+  test("flatMap try"){
+    val l = List(List(1,2),List(1,2), Nil)
+
+    /*forma con el map de hacer el prom*/
+    /*l.filter(!_.isEmpty).map(x=>x.sum/x.size)*/
+    /*forma con el map de hacer el prom ES NECESARIO ESPECIFICAR LA SALIDA, EN ESTE CASO LIST*/
+    val l2 = l.filter(!_.isEmpty).map(x=>List(x.sum/x.size))
+    assert(l2==List(1,2))
+  }
+
 }

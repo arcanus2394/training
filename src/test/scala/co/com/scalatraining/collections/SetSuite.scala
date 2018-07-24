@@ -152,4 +152,15 @@ class SetSuite extends FunSuite {
     assert(r.tail.tail.tail.head == 3)
   }
 
+  test("SetTest"){
+    val s: Set[Int] = Set(1, 2, 3, 4)
+    val x: Set[Int] = Set(4, 5, 6)
+
+    /*Union*/
+    val u: Set[Int] = s.foldLeft(x)((x, item)=>x+item)
+
+    /*Inters*/
+    val in = s.filter(elem=>elem==x)
+    print(in)
+  }
 }

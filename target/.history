@@ -5,3 +5,13 @@ testOnly co.com.scalatraining.syntax.SyntaxSuite
 testOnly co.com.scalatraining.collections.ListSuite
 testOnly co.com.scalatraining.tuples.TupleSuite
 testOnly co.com.scalatraining.collections.ListSuite
+testOnly co.com.scalatraining.collections.
+testOnly co.com.scalatraining.collections.ListSuite
+testOnly co.com.scalatraining.collections.MapSuite
+testOnly co.com.scalatraining.collections.SetSuite
+testOnly co.com.scalatraining.collections.QueueSuite
+testOnly co.com.scalatraining.collections.StackSuite
+testOnly co.com.scalatraining.collections.QueueSuite
+testOnly co.com.scalatraining.collections.StackSuite
+testOnly co.com.scalatraining.collections.QueueSuite
+testOnly co.com.scalatraining.collections.StackSuite

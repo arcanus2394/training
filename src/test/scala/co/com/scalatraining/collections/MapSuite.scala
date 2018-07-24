@@ -1,5 +1,7 @@
 package co.com.scalatraining.collections
 
+import java.security.Identity
+
 import org.scalatest.FunSuite
 
 import scala.collection.SortedMap
@@ -128,6 +130,12 @@ class MapSuite extends FunSuite {
     assertResult(Map("1" -> 1, "2" -> 4, "3" -> 9)) {
       map.mapValues(valor => valor * valor)
     }
+  }
+
+  test("testMap") {
+    val text = "Hola a todos todos"
+    val clean = text.split(" ").groupBy(f=x=>x).mapValues(_.size)
+    assert(Map("Hola" -> 1, "a" -> 1, "todos" ->2)==clean)
   }
 
 }
