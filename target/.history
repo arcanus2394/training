@@ -15,3 +15,10 @@ testOnly co.com.scalatraining.collections.QueueSuite
 testOnly co.com.scalatraining.collections.StackSuite
 testOnly co.com.scalatraining.collections.QueueSuite
 testOnly co.com.scalatraining.collections.StackSuite
+testOnly co.com.scalatraining.collections.SetSuit
+exit
+testOnly co.com.scalatraining.collections.SetSuite
+testOnly co.com.scalatraining.collections.StackSuite
+testOnly co.com.scalatraining.collections.SetSuite
+testOnly co.com.scalatraining.collections.QueueSuite
+testOnly co.com.scalatraining.collections.SetSuite

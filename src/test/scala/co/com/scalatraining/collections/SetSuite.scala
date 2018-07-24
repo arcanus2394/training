@@ -157,10 +157,13 @@ class SetSuite extends FunSuite {
     val x: Set[Int] = Set(4, 5, 6)
 
     /*Union*/
-    val u: Set[Int] = s.foldLeft(x)((x, item)=>x+item)
-
-    /*Inters*/
-    val in = s.filter(elem=>elem==x)
-    print(in)
+    val u: Set[Int] = s.foldLeft(x)((acum, item)=>acum+item)
+    assert(u==Set(1,2,3,4,5,6))
+    /*Interseccion*/
+    val in = s.filter(elem=>x.contains(elem))
+    assert(in==Set(4))
+    /*Diferencia*/
+    val dif = s.filterNot(elem=>x.contains(elem))
+    assert(Set(1,2,3)==dif)
   }
 }

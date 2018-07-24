@@ -74,6 +74,13 @@ class QueueSuite extends FunSuite {
     }
   }
 
+  test("Una Stack contiene o no un valor dado") {
+    val q = Queue(1, 2, 3, 4, 5)
+    assertResult(true) {
+      q.contains(2)
+    }
+  }
+
   test("Se debe poder obtener todos los elementos de una queue sin el primer elemento") {
     val q = Queue(1, 2, 3, 4)
     assertResult(Queue(2, 3, 4)) {

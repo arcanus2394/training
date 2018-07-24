@@ -59,6 +59,13 @@ class StackSuite extends FunSuite{
     }
   }
 
-  
+  test("Una Stack contiene o no un valor dado") {
+    val stk = Stack(1, 2, 3, 4, 5)
+    assertResult(true) {
+      stk.contains(2)
+    }
+  }
+
+
 
 }
