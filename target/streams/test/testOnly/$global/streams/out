@@ -1,8 +1,6 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(co.com.scalatraining.collections.SetSuite, org.scalatest.tools.Framework$$anon$1@4696b6bf, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 115 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 19[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
-[0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	co.com.scalatraining.collections.SetSuite[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 13 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 0[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 0, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[33mNo tests were executed.[0m[0m
+[0m[[0minfo[0m] [0mNo tests to run for test:testOnly[0m

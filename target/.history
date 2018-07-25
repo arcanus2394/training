@@ -22,3 +22,11 @@ testOnly co.com.scalatraining.collections.StackSuite
 testOnly co.com.scalatraining.collections.SetSuite
 testOnly co.com.scalatraining.collections.QueueSuite
 testOnly co.com.scalatraining.collections.SetSuite
+testOnly co.com.scalatraining.collections.QueueSuite
+testOnly co.com.scalatraining.effects.OptionSuite
+testOnly co.com.scalatraining.collections.QueueSuite
+testOnly co.com.scalatraining.effects.OptionSuite
+testOnly co.com.scalatraining.effects.TrySuite
+testOnly co.com.scalatraining.effects.FutureSuite
+testOnly co.com.scalatraining.effects.OptionSuite
+testOnly co.com.scalatraining.ejercicio.Cotizacion

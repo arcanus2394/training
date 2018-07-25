@@ -87,7 +87,28 @@ class FutureSuite extends FunSuite {
 
     assert(res == 3)
 
+  }
 
+  test("Se debe poder encadenar Future con for-comp con error en f2") {
+    val f1 = Future {
+      Thread.sleep(200)
+      1
+    }
+
+    val f2 = Future {
+      Thread.sleep(200)
+      2/0
+    }
+
+    val f3: Future[Int] = for {
+      res1 <- f1
+      res2 <- f2.recover{case e:Exception=>0}
+      res3 <- f1
+    } yield res1 + res2 + res1
+
+    val res = Await.result(f3, 10 seconds)
+    println(res)
+    assert(res == 2)
 
   }
 

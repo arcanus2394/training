@@ -1,14 +1,14 @@
 #Successful Tests
-#Tue Jul 24 17:52:04 COT 2018
+#Wed Jul 25 17:17:30 COT 2018
 co.com.scalatraining.collections.MapSuite=1532448474901
-co.com.scalatraining.effects.FutureSuite=1532351769633
+co.com.scalatraining.effects.FutureSuite=1532555853128
 co.com.scalatraining.collections.StackSuite=1532470697680
-co.com.scalatraining.effects.TrySuite=1532351761332
+co.com.scalatraining.effects.TrySuite=1532550589225
 co.com.scalatraining.tuples.TupleSuite=1532377598239
 co.com.scalatraining.modeling.ModelingSuite=1532351761095
 co.com.scalatraining.effects.EitherSuite=1532351761370
-co.com.scalatraining.effects.OptionSuite=1532351761053
-co.com.scalatraining.collections.QueueSuite=1532471684508
+co.com.scalatraining.effects.OptionSuite=1532557050447
+co.com.scalatraining.collections.QueueSuite=1532527540647
 co.com.scalatraining.scalatest.specs.SetFunSpec=1532351761205
 co.com.scalatraining.scalatest.specs.SetFreeSpec=1532351761034
 co.com.scalatraining.scalatest.specs.SetPropSpec=1532351761204
