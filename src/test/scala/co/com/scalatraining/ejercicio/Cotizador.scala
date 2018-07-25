@@ -1,22 +1,14 @@
 package co.com.scalatraining.ejercicio
+
 import org.scalatest.FunSuite
 
-object Cotizacion {
-  def main(args: Array[String]): Unit = {
-    val x = new servicio
-  }
-}
-
-case class Cotizacion(periodo:String,aportante:String,dias:Int,IBC:Int)
-
-class servicio extends FunSuite{
-
+class Cotizador extends FunSuite{
   def calculoSueldo(c:Cotizacion):Cotizacion = {
     if (c.dias != "30") {
       val res = new Cotizacion(c.periodo,c.aportante,c.dias,(c.IBC.toInt * 30) / c.dias.toInt)
       res
     } else { val res= new Cotizacion(c.periodo,c.aportante,c.dias,c.IBC)
-        res
+      res
     }
   }
 
@@ -39,7 +31,6 @@ class servicio extends FunSuite{
   val res4 = res3.groupBy(x => (x.periodo,x.aportante))
   println(res4)
 
-
   test("Prueba regla 1"){
     val res1 = file.filter(x=>x.IBC!=0&&x.dias!=0)
     assert(res1==List(Cotizacion("2018/07","S4N",10,1000000),
@@ -48,4 +39,7 @@ class servicio extends FunSuite{
       Cotizacion("2018/08","S7N",10,1000000)))
   }
 
+
 }
+
+
