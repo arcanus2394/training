@@ -36,16 +36,16 @@ class servicio extends FunSuite{
   /*Regla 3*/
   val res3 = res2.distinct
   /*Regla 4 seleccionando el mayor*/
-  val res4 = res3.groupBy(x => (x.periodo,x.aportante))
+  val res4 = res3.groupBy(x => (x.periodo,x.aportante)).map(x => x._1 -> x._2.foldLeft(0) { (acum, item) =>
+    if (acum < item.IBC) {
+      item.IBC
+    } else {
+      acum
+    }
+  })
   println(res4)
-
-
-  test("Prueba regla 1"){
-    val res1 = file.filter(x=>x.IBC!=0&&x.dias!=0)
-    assert(res1==List(Cotizacion("2018/07","S4N",10,1000000),
-      Cotizacion("2018/07","S4N",20,1000000),
-      Cotizacion("2018/08","S4N",30,2000000),
-      Cotizacion("2018/08","S7N",10,1000000)))
-  }
+  val res5 = res4.groupBy(x=>x._1._1).map(x => x._1 -> x._2
+    .foldLeft(0) { (acum, item) => acum + item._2 })
+  println(res5)
 
 }
