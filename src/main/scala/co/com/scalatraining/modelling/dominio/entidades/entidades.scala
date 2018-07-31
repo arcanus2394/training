@@ -5,3 +5,4 @@ case class Persona(dni:String, nombre:String)
 case class Asegurado(dni:String, nombre:String)
 case class Cobertura(cdgarantia:String, cdsubgarantia:String)
 case class Tarifa(prima:Int)
+

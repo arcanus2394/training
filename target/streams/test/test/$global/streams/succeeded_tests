@@ -1,7 +1,8 @@
 #Successful Tests
-#Wed Jul 25 18:37:52 COT 2018
+#Tue Jul 31 15:59:57 COT 2018
 co.com.scalatraining.collections.MapSuite=1532448474901
 co.com.scalatraining.effects.FutureSuite=1532555853128
+co.com.scalatraining.collections.ListSuite=1533070797556
 co.com.scalatraining.collections.StackSuite=1532470697680
 co.com.scalatraining.effects.TrySuite=1532550589225
 co.com.scalatraining.tuples.TupleSuite=1532377598239

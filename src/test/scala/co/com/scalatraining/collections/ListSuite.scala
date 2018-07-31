@@ -260,7 +260,7 @@ class ListSuite extends FunSuite {
     /*l.filter(!_.isEmpty).map(x=>x.sum/x.size)*/
     /*forma con el map de hacer el prom ES NECESARIO ESPECIFICAR LA SALIDA, EN ESTE CASO LIST*/
     val l2 = l.filter(!_.isEmpty).map(x=>List(x.sum/x.size))
-    assert(l2==List(1,2))
+    assert(l2==List(List(1),List(1)))
   }
 
 }

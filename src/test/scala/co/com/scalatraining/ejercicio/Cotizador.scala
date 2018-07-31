@@ -28,7 +28,13 @@ class Cotizador extends FunSuite{
   /*Regla 3*/
   val res3 = res2.distinct
   /*Regla 4 seleccionando el mayor*/
-  val res4 = res3.groupBy(x => (x.periodo,x.aportante))
+  val res4 = res3.groupBy(x => (x.periodo,x.aportante)).map(x => x._1 -> x._2.foldLeft(0) { (acum, item) =>
+    if (acum < item.IBC) {
+      item.IBC
+    } else {
+      acum
+    }
+  })
   println(res4)
 
   test("Prueba regla 1"){
@@ -38,7 +44,6 @@ class Cotizador extends FunSuite{
       Cotizacion("2018/08","S4N",30,2000000),
       Cotizacion("2018/08","S7N",10,1000000)))
   }
-
 
 }
 

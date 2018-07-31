@@ -123,8 +123,6 @@ class FutureSuite extends FunSuite {
       case e: Exception => error = true
     }
 
-
-
     Thread.sleep(1000)
 
     assert(error == true)
@@ -343,6 +341,5 @@ class FutureSuite extends FunSuite {
     assert(res ==  Range(1,11).sum/Range(1,11).size)
 
   }
-
 
 }

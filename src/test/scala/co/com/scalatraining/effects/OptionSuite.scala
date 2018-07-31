@@ -292,7 +292,6 @@ class OptionSuite extends FunSuite {
 
   }
 
-
   test("foreach"){
     var temp=1
     /*option match {
@@ -413,10 +412,6 @@ class OptionSuite extends FunSuite {
     assert(res==List(1))
     assert(no==Nil)
   }
-
-
-
-
 
 }
 

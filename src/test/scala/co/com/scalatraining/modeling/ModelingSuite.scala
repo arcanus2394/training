@@ -90,7 +90,6 @@ class ModelingSuite extends FunSuite {
     def operarC(i:Int): Int
   }
 
-
   // Interprete de un algebra
   sealed trait interpreteDeAlgebra extends servicioDeDominio{
     def operarA(i:Int): Int = {
